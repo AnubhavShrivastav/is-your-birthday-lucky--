@@ -1,0 +1,62 @@
+:root{
+    --text-color:  rgb(12, 224, 248);
+    --background: rgb(19, 29, 47);
+
+}
+
+body{
+    background-color: var(--background);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 55vh;
+    margin: auto;
+}
+
+.heading{
+    margin-top: 8rem;
+    color: var(--text-color);
+}
+
+#birtdate{
+    padding-top: 0.5rem;
+    padding-bottom: 0.3rem;
+    border: 2px solid rgb(14, 178, 196);
+    border-radius: 6px;
+    margin-bottom: 1rem;
+    margin-top: 0.2rem;
+}
+
+#lucky-number{
+    padding-top: 0.5rem;
+    padding-bottom: 0.3rem;
+    border: 2px solid rgb(14, 178, 196);
+    border-radius: 6px;
+    margin-bottom: 0.5rem;
+    margin-top: 0.2rem;
+}
+
+#check{
+   margin-bottom: 1rem;
+   height: 30px;
+   width: 115px;
+   margin-left: 8rem;
+   border: 3px solid rgb(14, 178, 196);
+   background-color: var(--background);
+   color: var(--text-color);
+   cursor: pointer;
+
+}
+
+#output{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border: 2px solid rgb(14, 178, 196);
+    text-align: center;
+    font-weight: 500;
+    border-radius: 2px;
+    
+    
+}
