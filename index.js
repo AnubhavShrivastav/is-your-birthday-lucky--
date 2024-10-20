@@ -29,7 +29,7 @@ function luckisDivisible(sum,lucky){
   output.style.display = "block";
 
   if(sum % lucky == 0){
-    output.value = `${lucky} is a lucky 🥳`
+    output.value = `your birthday is lucky 🥳`
    }else{
     output.value = `${lucky} is not that lucky 🙁`
   }
