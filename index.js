@@ -8,10 +8,16 @@ hideMessage()
   function clickHandler(){
    let dob =  birthDate.value;
    let lucky = luckyNumber.value;
-   const sum = calculateSum(dob)
-    //console.log(sum)
 
-   luckisDivisible(sum,lucky)
+   const sum = calculateSum(dob)
+
+  if(dob&&lucky){
+    luckisDivisible(sum,lucky)
+  }else{
+    output.style.display = "block";
+    output.innerText = "please enter both the fields 😡"
+  }
+
   }
 
 
